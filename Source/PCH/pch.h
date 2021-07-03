@@ -2,6 +2,9 @@
 // Licensed under GPLv2+
 // Refer to the license.txt file included.
 
+#define _HAS_FEATURES_REMOVED_IN_CXX20 1
+#define _SILENCE_ALL_CXX17_DEPRECATION_WARNINGS 1
+
 #include <algorithm>
 #include <array>
 #include <assert.h>
